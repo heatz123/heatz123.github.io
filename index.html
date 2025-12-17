@@ -28,10 +28,18 @@
                     Junik Bae
                   </p>
                   <p>
-                    I'm an undergraduate student in Seoul National University majoring in Computer Science and Engineering. 
-                    Currently, I am advised by <a href="https://youngwoon.github.io/">Prof. Youngwoon Lee</a>  and focusing on unsupervised RL research projects.
-                    My ambition is to develop innovative models that enhance decision-making processes and contribute novel insights and knowledge to mankind.
+                    I'm an undergraduate student at Seoul National University majoring in Computer Science and Engineering.
+                    Currently, I am a research intern at <a href="https://rllab.snu.ac.kr">Yonsei RLLAB</a>, advised by <a href="https://youngwoon.github.io/">Prof. Youngwoon Lee</a>.
                   </p>
+                  <p>
+                    My long-term research goal is to develop <b>exploration-driven, creative agents</b> that can achieve superhuman performance in <b>open-ended environments</b>.
+                    In particular, I am interested in:
+                  </p>
+                  <ul>
+                    <li>General unsupervised exploration algorithms (e.g., <a href="https://heatz123.github.io/tldr/">TLDR</a>)</li>
+                    <li>Knowledge-guided, sample-efficient exploration (e.g., <a href="https://heatz123.github.io/pokeagent-solution/">PokeAgent</a>)</li>
+                    <li>LLM-based reasoning and agents (e.g., <a href="https://heatz123.github.io/pokeagent-solution/">PokeAgent</a>, <a href="https://arxiv.org/abs/2403.16167">ESREAL</a>)</li>
+                  </ul>
                   <p>
                     In the past, I served in Korean Air Force, specializing in deep learning model development. After that, I joined <a href="https://clovadubbing.naver.com">Naver Cloud Speech team</a> as a research intern.
                      During my undergraduate studies, I was involved in an undergraduate research program at <!-- https://ldilab-snu.notion.site/ldilab-snu/Home-47ac59b6129f4dfb9d0f5603c317acda --> <a href="https://seungwonh.github.io">Language and Data Intelligence Lab</a>, focusing on Natural Language Understanding for code refinement. 
@@ -58,7 +66,7 @@
                 <td style="padding:20px;width:100%;vertical-align:middle;">
                   <h2>Research and Projects</h2>
                   <p>
-                    My primary focus is on developing better <b>unsupervised reinforcement learning algorithms</b>. Previously, I worked on projects in various fields, including computer vision, machine learning, speech recognition, and text-to-speech.
+                    Below are selected publications and projects. See my <a href="data/CV_Junik_Bae.pdf">CV</a> for a complete list.
                   </p>
                 </td> 
               </tr>
@@ -67,6 +75,26 @@
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle;text-align:center;">
+                  <img src="images/pokemon.png" alt="pokeagent" height="160" style="border-style: none">
+                </td>
+                <td width="75%" valign="middle">
+                  <a href="https://heatz123.github.io/pokeagent-solution/">
+                    <span class="papertitle">PokeAgent Challenge: 1st Place in RPG Speedrunning Track</span>
+                  </a>
+                  <br>
+                  <em>NeurIPS</em>, 2025
+                  <p></p>
+                  <p>
+                    Award: $1,500 + $700 (GCP credits), competition report co-authorship
+                  </p>
+                  <p>
+                    Developed an autonomous Pokemon Emerald speedrun agent for long-horizon decision-making. Built a knowledge-guided RL pipeline using Voyager-style executable skill generation combined with reinforcement learning.
+                  </p>
+                </td>
+              </tr>
+
               <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle;text-align:center;">
                   <img src="images/tldr.gif" alt="safs_small" height="160" style="border-style: none">
@@ -169,53 +197,19 @@
                 </td>
               </tr>
 
-              <tr>
-                <td style="padding:20px;width:25%;vertical-align:middle;text-align:center;">
-                  <img src="images/goal_conditioned.png" alt="safs_small" width="160" height="160" style="border-style: none">
-                </td>
-                <td width="75%" valign="middle">
-                  <a href="https://github.com/heatz123/goal-conditioned-iris">
-                    <span class="papertitle">Goal Conditioned Trajectory Generation
-                      with Autoregressive Transformer</span>
-                  </a>
-                  <br>
-                  <p></p>
-                  <p>
-                    Implemented goal conditioned learning to transformer world-model-based agents, and tested with Atari Breakout. Empirically showed that the generative ability of transformer decoder models can be utilized to generate goal-conditioned trajectories.
-                    Final project for Data Science and Reinforcement Learning Course (2023-1).
-                  </p>
-                </td>
-              </tr>
-
             </tbody>
           </table>
           <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
             <tbody>
               <tr>
                 <td>
-                  <h2>Hostings & Talks</h2>
+                  <h2>Talks</h2>
                 </td>
               </tr>
             </tbody>
           </table>
           <table width="100%" align="center" border="0" cellpadding="20">
             <tbody>
-
-              <tr>
-                <td style="padding:20px;width:25%;vertical-align:middle;text-align:center;">
-                  <img src="images/grad-tts.png" width="200" height="160"></td>
-                <td width="75%" valign="center">
-                  <a href="https://drive.google.com/drive/folders/1Sn_jG8IWI75CM4IzjaVMoxQ17ZVFXRtj?usp=share_link">
-                    <span class="papertitle">Denoising Diffusion Models and its applications to TTS</span>
-                  </a>
-                  <br>
-                  <p></p> 
-                  <p>
-                    Delivered a comprehensive 5-week seminar series on Diffusion Models to the research team members in in Naver Cloud Voice Team. This series provided a theoretical explanation of Diffusion Models and an in-depth look at the practical applications in Text-to-Speech domain.
-                  </p>
-                </td>
-              </tr>
-
               <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle;text-align:center;">
                   <img src="images/understanding_rlhf.png" style="max-width: 200px;"></td>
@@ -224,7 +218,7 @@
                     <span class="papertitle">Understanding RLHF in Detail</span>
                   </a>
                   <br>
-                  <p></p> 
+                  <p></p>
                   <p>
                     Hosted a presentation titled "Understanding RLHF in Detail" at Deepest (SNU Deep Learning Research Club), providing an in-depth explanation of Proximal Policy Optimization (PPO) with preferences datasets and Direct Policy Optimization (DPO).
                   </p>
@@ -239,13 +233,12 @@
                     <span class="papertitle">A Path Towards Autonomous AI</span>
                   </a>
                   <br>
-                  <p></p> 
+                  <p></p>
                   <p>
-                    Hosted a presentation titled "A Path Towards Autonomous AI" at Deepest (SNU Deep Learning Research Club), which explains motivations for Joint-Embedding Predictive Archiecture proposed by Yann Lecun, and some recent works utilizing this architecture.
+                    Hosted a presentation titled "A Path Towards Autonomous AI" at Deepest (SNU Deep Learning Research Club), which explains motivations for Joint-Embedding Predictive Architecture proposed by Yann LeCun, and some recent works utilizing this architecture.
                   </p>
                 </td>
               </tr>
-              
             </tbody>
           </table>
           <table
