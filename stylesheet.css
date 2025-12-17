@@ -74,10 +74,6 @@ a:hover {
   text-decoration: none;
 }
 
-body {
-  background-color: #f5f5f5;
-}
-
 body,
 td,
 th,
@@ -101,6 +97,18 @@ h2 {
   padding-bottom: 8px;
   border-bottom: 2px solid #1772d0;
   display: inline-block;
+}
+
+/* Project card hover effect */
+.project-row {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+}
+
+.project-row:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  background: rgba(23, 114, 208, 0.03);
 }
 
 .papertitle {
